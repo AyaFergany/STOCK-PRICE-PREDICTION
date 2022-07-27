@@ -1,2 +1,3 @@
 # STOCK-PRICE-PREDICTION
-Machine Learning INRE
+Machine Learning INTERNSHIP
+Project 1
