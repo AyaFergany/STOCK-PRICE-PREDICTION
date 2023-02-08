@@ -31,10 +31,15 @@ Seaborn
 To actually implement the random forest regressor, we’re going to use scikit-learn, and we’ll import our RandomForestRegressor from sklearn.ensemble.
 
 import numpy as np
+
 import pandas as pd
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.ensemble import RandomForestRegressor
+
 from sklearn.metrics import r2_score,mean_squared_error
+
 import seaborn as sns
 
 Import Libraries for Random Forest Regression
