@@ -108,3 +108,5 @@ Mean squared error is a built in function, and we are using NumPy’s square roo
 
 # Sources
 https://heartbeat.comet.ml/random-forest-regression-in-python-using-scikit-learn-9e9b147e2153
+
+https://www.theclickreader.com/random-forest-regression/
