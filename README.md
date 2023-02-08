@@ -47,6 +47,7 @@ Load the Data
 Once the libraries are imported, our next step is to load the data, stored here. You can download the data and keep it in your local folder. After that we can use the read_csv method of Pandas to load the data into a Pandas data frame df, as shown below.
 
 Also shown in the snapshot of the data below, the data frame has two columns, x and y. Here, x is the feature and y is the label. We’re going to predict y using x as an independent variable.
+
 df = pd.read_csv(‘Random-Forest-Regression-Data.csv’)
 
 ![image](https://user-images.githubusercontent.com/91394241/217531933-18d681cb-cfe8-40fb-b991-eb20b4470c5e.png)
