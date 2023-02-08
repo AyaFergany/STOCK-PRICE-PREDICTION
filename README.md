@@ -92,7 +92,8 @@ Notice that the prediction output is an array of real numbers corresponding to t
 
 
 Random Forest Regression Model Prediction
-Model Evaluation
+
+# Model Evaluation
 Finally, we need to check to see how well our model is performing on the test data. For this, we evaluate our model by finding the root mean squared error produced by the model.
 
 Mean squared error is a built in function, and we are using NumPy’s square root function (np.sqrt) on top of it to find the root mean squared error value.
