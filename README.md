@@ -43,7 +43,8 @@ from sklearn.metrics import r2_score,mean_squared_error
 import seaborn as sns
 
 Import Libraries for Random Forest Regression
-Load the Data
+
+# Load the Data
 Once the libraries are imported, our next step is to load the data, stored here. You can download the data and keep it in your local folder. After that we can use the read_csv method of Pandas to load the data into a Pandas data frame df, as shown below.
 
 Also shown in the snapshot of the data below, the data frame has two columns, x and y. Here, x is the feature and y is the label. We’re going to predict y using x as an independent variable.
@@ -53,9 +54,10 @@ df = pd.read_csv(‘Random-Forest-Regression-Data.csv’)
 ![image](https://user-images.githubusercontent.com/91394241/217531933-18d681cb-cfe8-40fb-b991-eb20b4470c5e.png)
 
 
-
 Data snapshot for Random Forest Regression
-Data pre-processing
+
+# Data pre-processing
+
 Before feeding the data to the random forest regression model, we need to do some pre-processing.
 
 Here, we’ll create the x and y variables by taking them from the dataset and using the train_test_split function of scikit-learn to split the data into training and test sets.
@@ -72,7 +74,7 @@ Note that the test size of 0.3 indicates we’ve used 30% of the data for testin
 
 
 Data Pre processing for Random Forest Regression
-Train the model
+# Train the model
 We’re going to use x_train and y_train, obtained above, to train our random forest regression model. We’re using the fit method and passing the parameters as shown below.
 
 Note that the output of this cell is describing a large number of parameters like criteria, max depth, etc. for the model. All these parameters are configurable, and you’re free to tune them to match your requirements.
@@ -80,7 +82,8 @@ Note that the output of this cell is describing a large number of parameters lik
 
 
 Random Forest Regression Model Training using Fit method
-Prediction
+
+# Prediction
 Once the model is trained, it’s ready to make predictions. We can use the predict method on the model and pass x_test as a parameter to get the output as y_pred.
 
 Notice that the prediction output is an array of real numbers corresponding to the input array.
