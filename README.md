@@ -15,12 +15,19 @@ Once the Jupyter Notebook is up and running, the first thing we should do is imp
 We need to import:
 
 NumPy
+
 Pandas
+
 RandomForestRegressor
+
 train_test_split
+
 r2_score
+
 mean squared error
+
 Seaborn
+
 To actually implement the random forest regressor, we’re going to use scikit-learn, and we’ll import our RandomForestRegressor from sklearn.ensemble.
 
 import numpy as np
