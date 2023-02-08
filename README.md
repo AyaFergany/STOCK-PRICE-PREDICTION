@@ -92,7 +92,7 @@ Finally, we need to check to see how well our model is performing on the test da
 Mean squared error is a built in function, and we are using NumPy’s square root function (np.sqrt) on top of it to find the root mean squared error value.
 
 
-Random Forest Regression Evaluation
+
 ![image](https://user-images.githubusercontent.com/91394241/217531564-83d5a893-1ba3-4eae-827a-671e9de9db69.png)
 
 
