@@ -66,11 +66,11 @@ We also need to reshape the values using the reshape method so that we can pass 
 
 Note that the test size of 0.3 indicates we’ve used 30% of the data for testing. random_state ensures reproducibility. For the output of train_test_split, we get x_train, x_test, y_train, and y_test values.
 
-1-    x = df.x.values.reshape(-1, 1)
+1->    x = df.x.values.reshape(-1, 1)
 
-2-    y = df.y.values.reshape(-1, 1)
+2->   y = df.y.values.reshape(-1, 1)
 
-3-    x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state=42)
+3->   x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.30, random_state=42)
 
 
 Data Pre processing for Random Forest Regression
