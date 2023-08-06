@@ -1,7 +1,7 @@
 # STOCK-PRICE-PREDICTION
 Machine Learning INTERNSHIP
-Project 1
 
+Using machine learning algorithm to analyze financial data and make predictions about the future performance of a stock.
 
 
 
